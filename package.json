@@ -1,0 +1,12 @@
+{
+  "name": "backendmastery",
+  "version": "1.0.0",
+  "description": "intro to backendcourse",
+  "license": "ISC",
+  "author": "Tekfred",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
