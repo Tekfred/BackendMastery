@@ -84,7 +84,7 @@ const loginUser = async (req, res) => {
 const logoutuser = async (req, res) => {
     try {
         const { email } = req.body;
-        const user = await user.findOne({
+        const user = await User.findOne({
             email
         });
 
