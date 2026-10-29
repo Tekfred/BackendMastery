@@ -81,7 +81,7 @@ const loginUser = async (req, res) => {
     
 }
 
-const logout = async (req, res) => {
+const logoutuser = async (req, res) => {
     try {
         const { email } = req.body;
         const user = await user.findOne({
@@ -106,5 +106,5 @@ const logout = async (req, res) => {
 export {
     registerUser,
     loginUser,
-    logout
+    logoutuser
 }; 
