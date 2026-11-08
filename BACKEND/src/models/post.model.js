@@ -2,7 +2,7 @@ import mongoose, { Schema } from "mongoose";
 
 const postSchema = new Schema(
     {
-        type: {
+        name: {
             type: String,
             required: true,
             trim: true,
@@ -24,4 +24,4 @@ const postSchema = new Schema(
     }
 );
 
-export const post = mongoose.model("post", postSchema);
+export const Post = mongoose.model("Post", postSchema);
